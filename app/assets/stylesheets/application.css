@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+ .card-deck {
+ background-color: orange;
+ justify-content: space-between;
+}
+
+
+.card-text {
+ font-family: 'PT Serif', serif;
+}
+
+.text-muted {
+ font-family: 'Sawarabi Gothic', sans-serif;
+}

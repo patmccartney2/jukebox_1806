@@ -1,5 +1,31 @@
 <h1>Artists</h1>
 
 <% @artists.each do |artist| %>
-  <li><%= artist.name %></li>
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Shure_mikrofon_55S.jpg/1200px-Shure_mikrofon_55S.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"><%= artist.name %></h5>
+      <p class="card-text">Last Updated: <%= artist.updated_at %></p>
+      <p class="card-text"><small class="text-muted">Created: <%= artist.created_at %></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Shure_mikrofon_55S.jpg/1200px-Shure_mikrofon_55S.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"><%= artist.name %></h5>
+      <p class="card-text">Last Updated: <%= artist.updated_at %></p>
+      <p class="card-text"><small class="text-muted">Created: <%= artist.created_at %></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Shure_mikrofon_55S.jpg/1200px-Shure_mikrofon_55S.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"><%= artist.name %></h5>
+      <p class="card-text">Last updated: <%= artist.updated_at %></p>
+      <p class="card-text"><small class="text-muted">Created: <%= artist.created_at %></small></p>
+    </div>
+  </div>
+</div>
+
 <% end %>
